@@ -1,11 +1,13 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: 'Fuzzy Bubbles', cursive;
+    /* font-family: 'Fuzzy Bubbles', cursive; */
+    font-family: 'Open Sans', sans-serif;
 }
 
 :root{
     --navH: 96px;
+    --pc: #5a88d1;
 }
 
 body{
@@ -86,7 +88,7 @@ a.cv{
 
 .mail{
     text-decoration: none;
-        background-color: #5a88d1;
+        background-color: var(--pc);
         border: 2px solid transparent;
         color: white;
         padding: 10px;
@@ -104,7 +106,7 @@ a.cv{
 
 .about{
     color: white;
-    border: 4px dotted #5a88d1 ;
+    border: 4px dotted var(--pc) ;
     display: flex;
     width: 900px;
     margin: 30px auto 0;
@@ -127,16 +129,17 @@ a.cv{
     height: 450px;
 }
 .para{
-    padding-top: 65px;
-    font-size: 28px;
+    padding-top: 40px;
+    font-size: 25px;
     letter-spacing: 1px;
-    text-decoration: wavy;
+    
     word-spacing: 1px;
     
 }
 .ab{
     color: white;
-    padding-left: 15%;
+    padding-left: 13%;
+    padding-bottom: 20px;
 }
 
 .project{
@@ -156,7 +159,7 @@ a.cv{
 
 .p1{
     color: white;
-        border: 4px dotted #5a88d1;
+        border: 4px dotted var(--pc);
         padding: 20px;
         border-radius: 40px;
         
@@ -179,7 +182,7 @@ a.cv{
 
 .paper-about{
     color: white;
-        border: 4px dotted #5a88d1;
+        border: 4px dotted var(--pc);
         border-radius: 40px;
         padding: 20px;
         width: 400px;
@@ -188,7 +191,7 @@ a.cv{
 
 .view{
     text-decoration: none;
-        background-color: #5a88d1;
+        background-color: var(--pc);
         border: 2px solid transparent;
         color: white;
         padding: 5px;
@@ -293,3 +296,9 @@ i{
     padding-left: 15%;
     padding-bottom: 20px;
 }
+
+ .ab,.lang,.s,.paper-about,.paper-intro,.tools,.languages,.research-paper,.psdg,.pedchain,.intro-name,.name{
+    font-family: 'Fuzzy Bubbles', cursive;
+    
+}
+
