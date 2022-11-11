@@ -1,4 +1,3 @@
 # Portfolio
 
-
-Ehhhhhh life is boring 
+Ehhhhhh life is boring
