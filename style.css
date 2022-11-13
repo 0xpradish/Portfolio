@@ -12,7 +12,7 @@
 
 body{
     
-    background-color: #000000;
+    background-color: #e6e6e6;
 
 }
 
@@ -24,7 +24,8 @@ body{
     justify-content: space-between;
     align-items: center;
     padding: 0 2rem;
-    color: white;
+    color: black;
+    flex-wrap: wrap;
 }
 
 .name{
@@ -52,9 +53,10 @@ body{
     width: 1200px;
     margin: 0 auto ;
     display: flex;
-    color:white;
+    color:black;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
 }
 .container{
     display: flex;
@@ -70,7 +72,7 @@ a.cv{
     text-decoration: none;
     background-color: #5a88d1;
     border: 2px solid transparent;
-    color: white;
+    color: black;
     padding: 10px;
     font-size: larger;
     border-radius: 15px;
@@ -90,7 +92,7 @@ a.cv{
     text-decoration: none;
         background-color: var(--pc);
         border: 2px solid transparent;
-        color: white;
+        color: black;
         padding: 10px;
         font-size: 15px;
         border-radius: 15px;
@@ -105,23 +107,23 @@ a.cv{
 }
 
 .about{
-    color: white;
+    color: black;
     border: 4px dotted var(--pc) ;
     display: flex;
     width: 900px;
     margin: 30px auto 0;
     padding :  40px;
     border-radius: 40px;
-    justify-content: center;
+    
+    
     
 }
 .about p{
-    color: rgb(255, 255, 255);
+    color: black;
     margin: 0  0  0 40px;
 }
 .info{
     height: calc(80vh);
-    
     padding: 50px;
 }
 .image{
@@ -137,13 +139,13 @@ a.cv{
     
 }
 .ab{
-    color: white;
+    color: black;
     padding-left: 13%;
     padding-bottom: 20px;
 }
 
 .project{
-    color: white;
+    color: black;
     height: calc(70vh);
     
     padding:90px;
@@ -152,13 +154,14 @@ a.cv{
 .p-elements{
     padding-top: 5%;
     display: flex;
-    justify-content: space-evenly;
-    /* align-items: center; */
+    justify-content: center;
+    gap: 70px;
+    
  
 }
 
 .p1{
-    color: white;
+    color: black;
         border: 4px dotted var(--pc);
         padding: 20px;
         border-radius: 40px;
@@ -166,7 +169,7 @@ a.cv{
 }
 
 .paper-intro{
-    color: rgb(255, 255, 255);
+    color: black;
        padding-left: 10%;
        /* justify-content: center; */
        /* margin: 0 auto; */
@@ -181,7 +184,7 @@ a.cv{
 }
 
 .paper-about{
-    color: white;
+    color: black;
         border: 4px dotted var(--pc);
         border-radius: 40px;
         padding: 20px;
@@ -193,7 +196,7 @@ a.cv{
     text-decoration: none;
         background-color: var(--pc);
         border: 2px solid transparent;
-        color: white;
+        color: black;
         padding: 5px;
         width: 40px;
         font-size: 15px;
@@ -223,7 +226,7 @@ a.cv{
     background-position: left center;
     background-size: 20px;
     padding: 10px 30px;
-    color: white;
+    color: black;
 } 
 
 .python,.javascript,.solidity{
@@ -233,12 +236,12 @@ a.cv{
         background-position: left center;
         background-size: 20px;
         padding: 10px 30px;
-        color: white;
+        color: black;
 }
 
 
 .tech-stack{
-    color: white;
+    color: black;
     display: flex;
     justify-content: space-between;
     padding: 50px 100px 0px;
@@ -252,7 +255,7 @@ a.cv{
         background-position: left center;
         background-size: 20px;
         padding: 10px 30px;
-        color: white;
+        color: black;
 }
 .languages,.tools{
     padding-bottom: 20px;
@@ -267,7 +270,7 @@ a.cv{
 }
 
 .lang{
-    color: white;
+    color: black;
     padding-left: 15%;
     padding-bottom: 20px;
     padding-top: 60px;
@@ -275,7 +278,7 @@ a.cv{
 
 
 i{
-    color: white;
+    color: black;
 }
 .socials{
     height: calc(20vh);
@@ -286,13 +289,15 @@ i{
     justify-content: center;
     padding-top: 60px;
     padding-bottom: 30px;
+    flex-wrap: wrap;
+    gap: 120px;
 }
 i{
     font-size: 30px;
-    padding: 0 70px;
+    
 }
 .s{
-    color: white;
+    color: black;
     padding-left: 15%;
     padding-bottom: 20px;
 }
