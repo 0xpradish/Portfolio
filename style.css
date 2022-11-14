@@ -222,7 +222,7 @@ a.cv{
 
 .c,.java,.html,.css,.sql{
     list-style: none;
-    background-image: url(/images/check.png);
+    background-image: url(./images/check.png);
     background-repeat: no-repeat;
     background-position: left center;
     background-size: 20px;
@@ -232,7 +232,7 @@ a.cv{
 
 .python,.javascript,.solidity{
         list-style: none;
-        background-image: url(/images/refresh\ \(1\).png);
+        background-image: url(./images/refresh\ \(1\).png);
         background-repeat: no-repeat;
         background-position: left center;
         background-size: 20px;
@@ -251,7 +251,7 @@ a.cv{
 
 .git,.github,.vs{
     list-style: none;
-        background-image: url(/images/check.png);
+        background-image: url(./images/check.png);
         background-repeat: no-repeat;
         background-position: left center;
         background-size: 20px;
