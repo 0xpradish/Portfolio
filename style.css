@@ -308,14 +308,15 @@ i{
     
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 576px) {
     *{
         margin: 0;
         padding: 0;
         /* box-sizing: border-box; */
     }
     body {
-      
+      height: 100vh;
+      width: 100vh;
         
     }
     
@@ -323,14 +324,13 @@ i{
         height: 90px;
         width: 100%;
         padding: 0;
-        
         margin: 0;
-        gap: 30px;
+        gap: 10px;
 
     }
 
     .name{
-        font-size: 30px;
+        font-size: 20px;
 
     }
     .links{
@@ -341,7 +341,7 @@ i{
 
      font-size: 20px;
      color: white;
-     margin-right: 80px;
+     margin-right: ;
      padding: 5px;
     
 
