@@ -324,11 +324,11 @@ i{
     .navigation{
         height: 90px;
         padding: 0;
-        justify-content: center;
+        
     }
     .name{
         font-size: 30px;
-        align-items: center;
+        margin: 0 200px;
         
     }
     .links{
@@ -346,8 +346,9 @@ i{
     }
 
     .section{
-        width: 100%;
+        
         height: 400px;
+        margin: 0 60px;
 
     }
 
@@ -358,7 +359,7 @@ i{
     }
 
    .info{
-    height: 1000px;
+    height: 600px;
     padding: 0;
     margin: 0;
     
@@ -371,14 +372,15 @@ i{
     padding: 20px;
     display: none;
     
+    
 
    }
    .about{
    
     font-size: 20px;
-    width: 300px;
-    height: 600px;
-    padding: 0px;
+    width: 400px;
+    height: 400px;
+    padding: 30px;
     
     margin: 0 50px;
    }
@@ -396,7 +398,7 @@ i{
 
 
    .project{
-    height: 600px;
+    height: 900px;
     padding: 0;
     
    }
@@ -405,25 +407,41 @@ i{
     padding: 20px;
    }
    .p-elements{
-    padding: 50px 50px 20px 50px;
     
+    padding: 50px 50px 20px 50px;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    
+   }
+
+   .paper-about{
+    margin: 40px 50px;
+    width: 350px;
+    padding: 20px;
    }
 
    .tech{
     height: 600px;
     padding: 0;
+    margin: 0;
    }
 
 .tech-stack{
-    padding: 40px 0 0 0;
+  
+    justify-content: flex-start;
 
 }
-
+.tech-content{
+   padding-left: 60px;
+    
+}
 .lang,.languages,.tools,.paper-intro,.ab,.s{
     font-size: 25px;
 }
 .icons{
-    padding: 30px 0;
+    justify-content: flex-start;
+    margin-left: 100px;
     gap:70px;
 
 }
