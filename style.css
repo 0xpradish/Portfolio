@@ -1,7 +1,7 @@
-/* *{
+*{
     margin: 0;
     padding: 0;
-    /* font-family: 'Fuzzy Bubbles', cursive; */
+    font-family: 'Fuzzy Bubbles', cursive;
     font-family: 'Open Sans', sans-serif;
     
 }
@@ -20,7 +20,7 @@ body{
 
 .navigation{
     height: var(--navH);
-    /* background: red; */
+    
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -111,6 +111,7 @@ a.cv{
     color: black;
     border: 4px dotted var(--pc) ;
     display: flex;
+    
     width: 900px;
     margin: 30px auto 0;
     padding :  40px;
@@ -172,13 +173,13 @@ a.cv{
 .paper-intro{
     color: black;
        padding-left: 10%;
-       /* justify-content: center; */
-       /* margin: 0 auto; */
-       /* align-items: center; */
+       justify-content: center;
+       margin: 0 auto;
+       align-items: center;
 }
 
 .paper-about{
-    /* padding-left: 35%; */
+    padding-left: 35%;
     justify-content: center;
     padding-top: 130px;
     margin: 0 auto;
@@ -306,10 +307,14 @@ i{
  .ab,.lang,.s,.paper-about,.paper-intro,.tools,.languages,.research-paper,.psdg,.pedchain,.intro-name,.name,.highlight{
     font-family: 'Fuzzy Bubbles', cursive;
     
-} */
+}
 
 @media screen and (max-width: 576px) {
    
+    *{
+        margin: 0;
+        padding: 0;
+    }
     body {
       height: 100vh;
       width: 100vh;
@@ -364,15 +369,18 @@ i{
     height: 360px;
     width: 400px;
     padding: 20px;
+    display: none;
     
 
    }
    .about{
-    display: flex;
-    flex-wrap: wrap;
+   
     font-size: 20px;
-    width: 400px;
-    padding: 20px;
+    width: 300px;
+    height: 600px;
+    padding: 0px;
+    
+    margin: 0 50px;
    }
 
    .para{
