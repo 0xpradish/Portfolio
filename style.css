@@ -309,11 +309,7 @@ i{
 }
 
 @media screen and (max-width: 576px) {
-    *{
-        margin: 0;
-        padding: 0;
-        /* box-sizing: border-box; */
-    }
+   
     body {
       height: 100vh;
       width: 100vh;
@@ -322,31 +318,21 @@ i{
     
     .navigation{
         height: 90px;
-        width: 100%;
         padding: 0;
-        margin: 0;
-        gap: 10px;
-
+        justify-content: center;
     }
-
     .name{
-        font-size: 20px;
-
+        font-size: 30px;
+        align-items: center;
+        
     }
     .links{
         display: none;
     }
-
-    a.cv{
-
-     font-size: 20px;
-     color: white;
-     margin-right: ;
-     padding: 5px;
-    
-
-
+    .cv{
+        display: none;
     }
+
 
     .anime{
         width: 50px;
