@@ -1,19 +1,20 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: 'Fuzzy Bubbles', cursive;
-    font-family: 'Open Sans', sans-serif;
-    
+    /* font-family: 'Fuzzy Bubbles', cursive;
+    font-family: 'Open Sans', sans-serif; */
+    font-family: 'Sono', sans-serif;
 }
 
 :root{
     --navH: 96px;
     --pc: #5a88d1;
+    --col:white;
 }
 
 body{
     
-    background-color: #e6e6e6;
+    background-color: #000000;
 
 }
 
@@ -25,13 +26,17 @@ body{
     justify-content: space-between;
     align-items: center;
     padding: 0 2rem;
-    color: black;
+    color: var(--col);
     
 }
 
 .name{
     font-size: 2.5rem;
     margin-left:20px;
+}
+
+.iam{
+    font-size: 40px;
 }
 .links{
     display: flex;
@@ -54,7 +59,7 @@ body{
     width: 1200px;
     margin: 0 auto ;
     display: flex;
-    color:black;
+    color:var(--col);
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
@@ -73,7 +78,7 @@ a.cv{
     text-decoration: none;
     background-color: #5a88d1;
     border: 2px solid transparent;
-    color: black;
+    color: var(--col);
     padding: 10px;
     font-size: larger;
     border-radius: 15px;
@@ -93,7 +98,7 @@ a.cv{
     text-decoration: none;
         background-color: var(--pc);
         border: 2px solid transparent;
-        color: black;
+        color: var(--col);
         padding: 10px;
         font-size: 15px;
         border-radius: 15px;
@@ -121,7 +126,7 @@ a.cv{
     
 }
 .about p{
-    color: black;
+    color: var(--col);
     margin: 0  0  0 40px;
 }
 .info{
@@ -141,13 +146,13 @@ a.cv{
     
 }
 .ab{
-    color: black;
+    color: var(--col);
     padding-left: 13%;
     padding-bottom: 20px;
 }
 
 .project{
-    color: black;
+    color: var(--col);
     height: calc(70vh);
     
     padding:90px;
@@ -163,7 +168,7 @@ a.cv{
 }
 
 .p1{
-    color: black;
+    color: var(--col);
         border: 4px dotted var(--pc);
         padding: 20px;
         border-radius: 40px;
@@ -171,7 +176,7 @@ a.cv{
 }
 
 .paper-intro{
-    color: black;
+    color: var(--col);
        padding-left: 10%;
        justify-content: center;
        margin: 0 auto;
@@ -186,7 +191,7 @@ a.cv{
 }
 
 .paper-about{
-    color: black;
+    color: var(--col);
         border: 4px dotted var(--pc);
         border-radius: 40px;
         padding: 20px;
@@ -198,7 +203,7 @@ a.cv{
     text-decoration: none;
         background-color: var(--pc);
         border: 2px solid transparent;
-        color: black;
+        color: var(--col);
         padding: 5px;
         width: 40px;
         font-size: 15px;
@@ -228,7 +233,7 @@ a.cv{
     background-position: left center;
     background-size: 20px;
     padding: 10px 30px;
-    color: black;
+    color: var(--col);
 } 
 
 .python,.javascript,.solidity{
@@ -238,12 +243,12 @@ a.cv{
         background-position: left center;
         background-size: 20px;
         padding: 10px 30px;
-        color: black;
+        color: var(--col);
 }
 
 
 .tech-stack{
-    color: black;
+    color: var(--col);
     display: flex;
     justify-content: space-between;
     padding: 50px 100px 0px;
@@ -257,7 +262,7 @@ a.cv{
         background-position: left center;
         background-size: 20px;
         padding: 10px 30px;
-        color: black;
+        color: var(--col);
 }
 .languages,.tools{
     padding-bottom: 20px;
@@ -272,7 +277,7 @@ a.cv{
 }
 
 .lang{
-    color: black;
+    color: var(--col);
     padding-left: 15%;
     padding-bottom: 20px;
     padding-top: 60px;
@@ -280,7 +285,7 @@ a.cv{
 
 
 i{
-    color: black;
+    color: var(--col);
 }
 .socials{
     height: calc(20vh);
@@ -299,13 +304,13 @@ i{
     
 }
 .s{
-    color: black;
+    color: var(--col);
     padding-left: 15%;
     padding-bottom: 20px;
 }
 
  .ab,.lang,.s,.paper-about,.paper-intro,.tools,.languages,.research-paper,.psdg,.pedchain,.intro-name,.name,.highlight{
-    font-family: 'Fuzzy Bubbles', cursive;
+    font-family: 'Sono', sans-serif;
     
 }
 
@@ -314,10 +319,12 @@ i{
     *{
         margin: 0;
         padding: 0;
+        
     }
     body {
       height: 100vh;
-      width: 100vh;
+     
+    width: 600px;
         
     }
     
@@ -452,5 +459,6 @@ i{
 .socials{
     padding: 0;
 }
+
 
 }
